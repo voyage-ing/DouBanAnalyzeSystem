@@ -14,7 +14,7 @@ class PyWinDesign:
         size = '%dx%d+%d+%d' % (645, 433, (screenwidth - 645) / 2, (screenheight - 433) / 2)
         self.启动窗口.geometry(size)
 
-        self.photo = tk.PhotoImage(file='../Douban-Comments-Spider/comments_infor/book/解忧杂货店/解忧杂货店_comments_WC.png')
+        self.photo = tk.PhotoImage(file='../Douban_Comments_Spider/comments_infor/book/解忧杂货店/解忧杂货店_comments_WC.png')
         self.图片1 = tk.Label(self.启动窗口, imag=self.photo, anchor=tk.CENTER)
         self.图片1.place(x=208, y=224, width=381, height=191)
 
@@ -23,7 +23,7 @@ class PyWinDesign:
         self.编辑框1.place(x=263, y=14, width=125, height=35)
 
         self.编辑框2 = tk.Text(self.启动窗口, wrap=tk.WORD,font=("宋体", 14, "bold"))
-        with open('../Douban-Comments-Spider/comments_infor/book/解忧杂货店/解忧杂货店_comments.txt','r',encoding='gbk') as f:
+        with open('../Douban_Comments_Spider/comments_infor/book/解忧杂货店/解忧杂货店_comments.txt','r',encoding='gbk') as f:
             text = f.read()
         self.编辑框2.insert(tk.END, text)
         self.编辑框2.place(x=205, y=58, width=429, height=149)
@@ -54,12 +54,12 @@ class PyWinDesign:
         self.编辑框1.delete(1.0, "end")    # 先删后改
         self.编辑框1.insert(tk.END, clic_name)
 
-        imgPath = '../Douban-Comments-Spider/comments_infor/{}/{}/{}_comments_WC.png'.format(clic_cate,clic_name,clic_name)
+        imgPath = '../Douban_Comments_Spider/comments_infor/{}/{}/{}_comments_WC.png'.format(clic_cate,clic_name,clic_name)
         self.photo = tk.PhotoImage(file=imgPath)
         self.图片1 = tk.Label(self.启动窗口, imag=self.photo, anchor=tk.CENTER)
         self.图片1.place(x=208, y=224, width=381, height=191)
 
-        textPath = '../Douban-Comments-Spider/comments_infor/{}/{}/{}_comments.txt'.format(clic_cate,clic_name,clic_name)
+        textPath = '../Douban_Comments_Spider/comments_infor/{}/{}/{}_comments.txt'.format(clic_cate,clic_name,clic_name)
         with open(textPath,'r',encoding = 'gbk') as f:
             clic_text = f.read()
         self.编辑框2.delete(1.0, "end")     # 先删后改

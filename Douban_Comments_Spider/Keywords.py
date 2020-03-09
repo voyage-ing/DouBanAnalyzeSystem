@@ -27,7 +27,7 @@ def keywords(subpath):
     segment = jieba.lcut(cleaned_comments)
     words_df = pandas.DataFrame({'segment':segment})
 
-    stopwords = pandas.read_csv("ChineseStopWords.txt",index_col=False,quoting=3,sep='\t',names=['stopword'],encoding='GB2312')
+    stopwords = pandas.read_csv("/Users/hang/PycharmProjects/bishe/Douban_Comments_Spider/ChineseStopWords.txt",index_col=False,quoting=3,sep='\t',names=['stopword'],encoding='GB2312')
     words_df = words_df[~words_df.segment.isin(stopwords.stopword)]
 
     #words_stat=words_df.groupby(by=['segment'])['segment'].agg({"计数":numpy.size})
@@ -41,7 +41,7 @@ def keywords(subpath):
     words_stat=words_stat.reset_index().sort_values(by=["计数"],ascending=False)
 
     # 用词云进行显示
-    wordcloud = WordCloud(font_path="simhei.ttf", background_color="white", max_font_size=80)
+    wordcloud = WordCloud(font_path="/Users/hang/PycharmProjects/bishe/Douban_Comments_Spider/simhei.ttf", background_color="white", max_font_size=80)
     word_frequence = {x[0]: x[1] for x in words_stat.head(1000).values}
     print(word_frequence)
 
@@ -56,5 +56,6 @@ def keywords(subpath):
     plt.imshow(wordcloud)
     plt.axis("off")
     plt.show()
-    wordcloud.to_file(WC_img)
+    #wordcloud.to_file(WC_img)
+    wordcloud.to_file('/Users/hang/PycharmProjects/bishe/Douban_Comments_Spider'+WC_img[1:])
 

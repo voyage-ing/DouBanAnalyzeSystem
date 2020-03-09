@@ -121,7 +121,7 @@ def getComments(name,id,sort='movie'):
                 comm_tag = soup.find_all('p', attrs ={'class':"comment-content"})
             #print(comm_tag)
         finally:
-            path = './comments_infor/'+ sort + "/" +name
+            path = '/Users/hang/PycharmProjects/bishe/Douban_Comments_Spider/comments_infor/'+ sort + "/" +name
             isExists = os.path.exists(path)
             if not isExists:
                 os.makedirs(path)
@@ -136,7 +136,7 @@ def getComments(name,id,sort='movie'):
                         comment = ''.join(strlist)
                         print(comment)
                         global filename
-                        filename = "./comments_infor/" + sort + '/' + name +"/"+ name + "_comments.txt"
+                        filename = "/Users/hang/PycharmProjects/bishe/Douban_Comments_Spider/comments_infor/" + sort + '/' + name +"/"+ name + "_comments.txt"
                         #print(filename)
                         try:
                             with open(filename, 'a+') as f:
