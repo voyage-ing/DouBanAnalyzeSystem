@@ -174,8 +174,20 @@ class PyWinDesign:
 
         # 改评论信息
         textPath = '../Douban_Comments_Spider/comments_infor/{}/{}/{}_comments.txt'.format(clic_cate, clic_name,clic_name)
-        with open(textPath, 'r', encoding='gbk') as f:
-            clic_text = f.read()
+        try:
+            with open(textPath, 'r', encoding='gbk') as f:
+                clic_text = f.read()
+        except:
+            #  (U+0000-U+FFFF) 0-65535 ord()返回对应的 ASCII 数值，或者Unicode数值
+            print('deal with SE')
+            with open(textPath, 'r', encoding='UTF-8') as f:
+                clic_text_origin = f.read()
+            char_list = [clic_text_origin[j] for j in range(len(clic_text_origin)) if ord(clic_text_origin[j]) in range(65536)]
+            clic_text = ''
+            for j in char_list:
+                clic_text = clic_text + j
+
+
         self.编辑框2.delete(1.0, "end")  # 先删后改
         self.编辑框2.insert(tk.END, clic_text)
 
