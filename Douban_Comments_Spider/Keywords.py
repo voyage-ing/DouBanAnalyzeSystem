@@ -14,7 +14,10 @@ def keywords(subpath):
     """
     commentFile = subpath + ".txt"
     WC_img = subpath + "_WC.png"
-    with open(commentFile,'r') as f:
+    # with open(commentFile,'r') as f:
+    #     comments = f.readlines()
+
+    with open('/Users/hang/PycharmProjects/bishe/Douban_Comments_Spider'+commentFile[1:],'r') as f:
         comments = f.readlines()
     com = ''.join(comments).split()
     comment = ''.join(com)
@@ -58,4 +61,3 @@ def keywords(subpath):
     plt.show()
     #wordcloud.to_file(WC_img)
     wordcloud.to_file('/Users/hang/PycharmProjects/bishe/Douban_Comments_Spider'+WC_img[1:])
-

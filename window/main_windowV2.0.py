@@ -158,7 +158,7 @@ class PyWinDesign:
         self.按钮9.place(x=611, y=59, width=17, height=166)
 
     def clickLs(self,event):
-        clic = event.widget.selection()[0][-1:]  # 取出16进制
+        clic = event.widget.selection()[0][-3:]  # 取出16进制
         seq = int(clic, 16)
         clic_name = list(fini_name_cate)[seq - 1:seq][0]
         clic_cate = list(fini_name_cate.values())[seq - 1:seq][0]

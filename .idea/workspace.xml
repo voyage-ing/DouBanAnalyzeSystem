@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e582a81f-79aa-4f2d-ab2d-4ac722649456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Douban_Comments_Spider/Start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/ChineseStopWords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/ChineseStopWords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/DB_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/DB_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/GetID_Douban.py" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/GetID_Douban.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/Keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/Keywords.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/book/解忧杂货店/解忧杂货店_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/book/解忧杂货店/解忧杂货店_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/book/解忧杂货店/解忧杂货店_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/book/解忧杂货店/解忧杂货店_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/2012/2012_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/2012/2012_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/2012/2012_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/2012/2012_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/你好，旧时光/你好，旧时光_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/你好，旧时光/你好，旧时光_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/你好，旧时光/你好，旧时光_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/你好，旧时光/你好，旧时光_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/十面埋伏/十面埋伏_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/十面埋伏/十面埋伏_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/十面埋伏/十面埋伏_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/十面埋伏/十面埋伏_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/唐人街探案3/唐人街探案3_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/唐人街探案3/唐人街探案3_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/唐人街探案3/唐人街探案3_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/唐人街探案3/唐人街探案3_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/寻梦环游记/寻梦环游记_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/寻梦环游记/寻梦环游记_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/寻梦环游记/寻梦环游记_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/寻梦环游记/寻梦环游记_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/小丑/小丑_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/小丑/小丑_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/小丑/小丑_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/小丑/小丑_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/心灵捕手/心灵捕手_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/心灵捕手/心灵捕手_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/心灵捕手/心灵捕手_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/心灵捕手/心灵捕手_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/环太平洋/环太平洋_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/环太平洋/环太平洋_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/环太平洋/环太平洋_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/环太平洋/环太平洋_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/疯狂动物城/疯狂动物城_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/疯狂动物城/疯狂动物城_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/movie/疯狂动物城/疯狂动物城_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/movie/疯狂动物城/疯狂动物城_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/music/7 years/7 years_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/music/7 years/7 years_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/music/7 years/7 years_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/music/7 years/7 years_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/music/倒数/倒数_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/music/倒数/倒数_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/music/倒数/倒数_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/music/倒数/倒数_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/music/句号/句号_comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/music/句号/句号_comments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/comments_infor/music/句号/句号_comments_WC.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/comments_infor/music/句号/句号_comments_WC.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/getComments.py" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/getComments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/screenshorts/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/screenshorts/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/screenshorts/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/screenshorts/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/screenshorts/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/screenshorts/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/screenshorts/txt.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/screenshorts/txt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/screenshorts/wc.png" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/screenshorts/wc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/simhei.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/simhei.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douban-Comments-Spider/test" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/window/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/window/main_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douban_Comments_Spider/Keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/Douban_Comments_Spider/Keywords.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/window/main_windowV2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/window/main_windowV2.0.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +15,7 @@
     <SUITE FILE_PATH="coverage/bishe$alterWin.coverage" NAME="alterWin Coverage Results" MODIFIED="1583733252213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/window" />
     <SUITE FILE_PATH="coverage/bishe$DB_func.coverage" NAME="DB_func Coverage Results" MODIFIED="1583572062375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Douban-Comments-Spider" />
     <SUITE FILE_PATH="coverage/bishe$main.coverage" NAME="main Coverage Results" MODIFIED="1583572355487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Douban-Comments-Spider" />
-    <SUITE FILE_PATH="coverage/bishe$main_windowV2_0.coverage" NAME="main_windowV2.0 Coverage Results" MODIFIED="1583740657121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/window" />
+    <SUITE FILE_PATH="coverage/bishe$main_windowV2_0.coverage" NAME="main_windowV2.0 Coverage Results" MODIFIED="1583760426716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/window" />
     <SUITE FILE_PATH="coverage/bishe$getDataFromDB.coverage" NAME="getDataFromDB Coverage Results" MODIFIED="1583485693171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/window" />
     <SUITE FILE_PATH="coverage/bishe$a.coverage" NAME="a Coverage Results" MODIFIED="1583391973244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/window" />
     <SUITE FILE_PATH="coverage/bishe$Keywords.coverage" NAME="Keywords Coverage Results" MODIFIED="1582788613617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Douban-Comments-Spider" />
@@ -84,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/window/main_windowV2.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="172" column="58" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
+            <state relative-caret-position="-462">
+              <caret line="163" column="42" lean-forward="true" selection-start-line="163" selection-start-column="42" selection-end-line="163" selection-end-column="42" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -96,14 +50,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="320">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Douban_Comments_Spider/getComments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-470">
+              <caret line="125" column="27" selection-start-line="125" selection-start-column="27" selection-end-line="125" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Douban_Comments_Spider/Keywords.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,6 +86,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>app</find>
+      <find>commentFile</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,14 +113,14 @@
         <option value="$PROJECT_DIR$/readme/test.py" />
         <option value="$PROJECT_DIR$/Douban_Comments_Spider/main.py" />
         <option value="$PROJECT_DIR$/Douban_Comments_Spider/Start.py" />
-        <option value="$PROJECT_DIR$/window/main_windowV2.0.py" />
-        <option value="$PROJECT_DIR$/Douban_Comments_Spider/Keywords.py" />
         <option value="$PROJECT_DIR$/Douban_Comments_Spider/getComments.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Douban_Comments_Spider/Keywords.py" />
+        <option value="$PROJECT_DIR$/window/main_windowV2.0.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="52" />
     <option name="y" value="23" />
     <option name="width" value="1388" />
@@ -368,23 +335,22 @@
       <workItem from="1583409347212" duration="1204000" />
       <workItem from="1583474962429" duration="13285000" />
       <workItem from="1583645530589" duration="936000" />
-      <workItem from="1583663339662" duration="18792000" />
+      <workItem from="1583663339662" duration="21424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52037000" />
+    <option name="totallyTimeSpent" value="54669000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="23" width="1388" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="52" y="23" width="1388" height="877" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19539376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19539376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35796177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38980892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,7 +359,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.42929935" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30063695" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -544,16 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Douban_Comments_Spider/GetID_Douban.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1960">
-          <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Douban_Comments_Spider/DB_func.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -585,41 +541,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Douban_Comments_Spider/Keywords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="29" column="90" selection-start-line="29" selection-start-column="90" selection-end-line="29" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Douban_Comments_Spider/getComments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="180" column="43" selection-start-line="180" selection-start-column="43" selection-end-line="180" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Douban_Comments_Spider/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-299" />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/window/main_windowV2.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="172" column="58" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,6 +556,46 @@
             <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Douban_Comments_Spider/GetID_Douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Douban_Comments_Spider/getComments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-470">
+          <caret line="125" column="27" selection-start-line="125" selection-start-column="27" selection-end-line="125" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Douban_Comments_Spider/Keywords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/window/main_windowV2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="163" column="42" lean-forward="true" selection-start-line="163" selection-start-column="42" selection-end-line="163" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
