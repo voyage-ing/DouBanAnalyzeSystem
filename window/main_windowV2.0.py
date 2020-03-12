@@ -72,7 +72,7 @@ class PyWinDesign:
         self.选择框2_标题 = tk.StringVar()
         self.选择框2_标题.set('是否启用代理IP')
         # # 创建勾选项
-        # c1 = tk.Checkbutton(window, text='人工智能',
+        # c1 = tk.Checkbutton(window, text='aaaaaaaa',
         #                     variable=var1,
         #                     onvalue=1,  # 勾选中该项时，把1放入var1
         #                     offvalue=0,  # 不勾选中该项时，把０放入var1
@@ -179,7 +179,7 @@ class PyWinDesign:
                 clic_text = f.read()
         except:
             #  (U+0000-U+FFFF) 0-65535 ord()返回对应的 ASCII 数值，或者Unicode数值
-            print('deal with SE')
+            # print('deal with SE')
             with open(textPath, 'r', encoding='UTF-8') as f:
                 clic_text_origin = f.read()
             char_list = [clic_text_origin[j] for j in range(len(clic_text_origin)) if ord(clic_text_origin[j]) in range(65536)]
